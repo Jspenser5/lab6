@@ -8,11 +8,12 @@ using namespace std;
 
 int main()
 {
+	// ghjdthrfrrfjer
 	setlocale(LC_ALL, "Russian");
 	int n;
-	cout << "Ââåäèòå ðàçìåð ìàòðèöû " << endl;
+	cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã°Ã Ã§Ã¬Ã¥Ã° Ã¬Ã Ã²Ã°Ã¨Ã¶Ã» " << endl;
 	cin >> n;
-	cout << "Ââåäèòå ýëåìåíòû ìàòðèöû " << endl;
+	cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã½Ã«Ã¥Ã¬Ã¥Ã­Ã²Ã» Ã¬Ã Ã²Ã°Ã¨Ã¶Ã» " << endl;
 	int** matrix = input_matrix(n);
 
 	int** matrix_5th_degree = matrix_power(matrix, n, 5);
